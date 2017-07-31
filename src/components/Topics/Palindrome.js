@@ -16,7 +16,7 @@ class Palindrome extends Component {
 
     isPalindrome(input){
         let lc = input.toLowerCase();
-        let ans = lc.split('').reverse().join('') == lc ? 'true' : 'false';
+        let ans = lc.split('').reverse().join('') === lc ? 'true' : 'false';
         this.setState({
             palindrome: ans
         })

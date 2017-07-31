@@ -29,7 +29,7 @@ class TopicBrowser extends Component {
                     <button onClick={()=>this.router('sum')} >Sum</button>
                 </div>
                 {
-                    this.state.route =='even'? <EvenAndOdd/> : this.state.route == 'fObj' ? <FilterObject/> : this.state.route == 'fStr' ? <FilterString/> : this.state.route == 'pal' ? <Palindrome/> : this.state.route == 'sum' ? <Sum/> : null 
+                    this.state.route ==='even'? <EvenAndOdd/> : this.state.route === 'fObj' ? <FilterObject/> : this.state.route === 'fStr' ? <FilterString/> : this.state.route === 'pal' ? <Palindrome/> : this.state.route === 'sum' ? <Sum/> : null 
                 }
                 {/* <EvenAndOdd/>
                 <FilterObject/>
